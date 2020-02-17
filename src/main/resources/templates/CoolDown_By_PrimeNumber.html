@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="2; URL=/CoolDown_By_PrimeNumber">
+<title>Count_PrimeNumber</title>
+</head>
+<body>
+	<h1>素数を数えて落ち着こうの会</h1>
+	<form method="post" action="#" th:action="@{/Cool_Down}" th:object="${CoolDown}">
+	<p th:text="${PrimeNumber}" />
+	<input type="submit" value="落ち着いた！" />
+	</form>
+</body>
+</html>

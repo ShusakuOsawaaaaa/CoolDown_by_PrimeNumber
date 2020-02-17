@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>CoolDown</title>
+</head>
+<body>
+	<img th:src="@{../img/hot.png}">
+	<p>よかったね</p>
+	<form method="get" action="#" th:action="@{/}" th:object="${CoolDown}">
+		<input type="submit" value="やっぱ嘘" />
+	</form>
+</body>
+</html>
